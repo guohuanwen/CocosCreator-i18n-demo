@@ -79,19 +79,19 @@
         "__id__": 8
       },
       {
-        "__id__": 10
+        "__id__": 13
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 13
+        "__id__": 16
       },
       {
-        "__id__": 14
+        "__id__": 17
       },
       {
-        "__id__": 15
+        "__id__": 18
       }
     ],
     "_prefab": null,
@@ -379,6 +379,9 @@
     "_components": [
       {
         "__id__": 9
+      },
+      {
+        "__id__": 10
       }
     ],
     "_prefab": null,
@@ -392,8 +395,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 195,
-      "height": 270
+      "width": 141,
+      "height": 45
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -446,7 +449,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "31bc895a-c003-4566-a9f3-2e54ae1c17dc"
+      "__uuid__": "10db723c-667b-4727-99a2-7adff08d3fc5"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -463,6 +466,38 @@
     "_id": "42SM+92GZAXYsjLj89MLM+"
   },
   {
+    "__type__": "f34ac2GGiVOBbG6XlfvgYP4",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_enabled": true,
+    "spriteFrameSet": [
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      }
+    ],
+    "_id": "34isdSSZZFcKuunHjvzmSs"
+  },
+  {
+    "__type__": "SpriteFrameSet",
+    "language": "zh",
+    "spriteFrame": {
+      "__uuid__": "89fffe72-3788-43a7-bc5b-97dd8f1c0caa"
+    }
+  },
+  {
+    "__type__": "SpriteFrameSet",
+    "language": "en",
+    "spriteFrame": {
+      "__uuid__": "10db723c-667b-4727-99a2-7adff08d3fc5"
+    }
+  },
+  {
     "__type__": "cc.Node",
     "_name": "label",
     "_objFlags": 0,
@@ -473,10 +508,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 11
+        "__id__": 14
       },
       {
-        "__id__": 12
+        "__id__": 15
       }
     ],
     "_prefab": null,
@@ -490,7 +525,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 210.18,
+      "width": 153.4,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -533,7 +568,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 10
+      "__id__": 13
     },
     "_enabled": true,
     "_materials": [
@@ -543,8 +578,8 @@
     ],
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
-    "_string": "你好！",
-    "_N$string": "你好！",
+    "_string": "Hello!",
+    "_N$string": "Hello!",
     "_fontSize": 60,
     "_lineHeight": 60,
     "_enableWrapText": true,
@@ -566,7 +601,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 10
+      "__id__": 13
     },
     "_enabled": true,
     "_dataID": "label.hello",
@@ -598,7 +633,7 @@
     },
     "_enabled": true,
     "label": {
-      "__id__": 11
+      "__id__": 14
     },
     "text": "Hello, World!",
     "_id": "dcGJ+cSA5D7qNtScKfLjJJ"
