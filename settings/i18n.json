@@ -1,3 +1,7 @@
 {
-  "languages": []
+  "default_language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ]
 }
